@@ -1,0 +1,91 @@
+#background {
+  background-image: url(../assets/img/custom-solutions/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.example-slide {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 45px;
+  height: 430px;
+  border-radius: 20px;
+}
+
+.example-slide-desc {
+  font-size: 12.6px;
+  color: #fff;
+}
+
+.example-slide-title {
+  font-size: 21.2px;
+  color: #fff;
+}
+
+.example-img-icon {
+  width:  86px;
+  height:  75px;
+}
+
+#example-slide1 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/custom-solutions/examples/images/healthcare.jpg);
+}
+
+#example-slide2 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/custom-solutions/examples/images/events.jpg);
+}
+
+#example-slide3 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/custom-solutions/examples/images/malls.jpg);
+}
+
+#example-slide4 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/custom-solutions/examples/images/phonewipes.jpg);
+}
+
+#example-slide5 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/custom-solutions/examples/images/sunscreen.jpg);
+}
+
+#example-slide6 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/custom-solutions/examples/images/tradeshows.jpg);
+}
+
+#section-booster {
+  min-height: 800px;
+  background-color: var(--gunmetal);
+  background-image: url(../assets/img/custom-solutions/wave-top.png), url(../assets/img/custom-solutions/wave-bottom.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#background-custom {
+  background-image: url(../assets/img/custom-solutions/background-m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #background-custom {
+    background-image: url(../assets/img/custom-solutions/background.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .example-slide-desc {
+    font-size: 18px;
+  }
+  .example-slide-title {
+    font-size: 28px;
+  }
+}

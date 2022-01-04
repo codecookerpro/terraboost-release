@@ -1,0 +1,104 @@
+#btn-more-about-us {
+  background-color: #fff;
+  color: var(--purple) !important;
+  width: 196px;
+  font-weight: bold !important;
+}
+
+.slider-item {
+  height: 475px !important;
+}
+
+.nav-link.active {
+  font-weight: bold !important;
+}
+
+#our-networks {
+  background-image: url(../assets/img/why-terraboost/wave.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+button.nav-link {
+  border-radius: 24px;
+  margin-bottom: 39px;
+  width: 185px;
+  border: none;
+  background-color: #fff;
+  color: var(--purple);
+}
+
+button.nav-link.active {
+  background-color: var(--purple);
+  color: #fff;
+}
+
+.feedback-text {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 22px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#intro-text {
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media (min-height: 992px) {
+  #intro-text {
+    line-height: 64px;
+  }
+}
+
+#introducer {
+  line-height: 24px;
+}
+
+.personal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-contact {
+  color: #fff;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+#btn-contact:hover {
+  background-color: greenyellow;
+}
+
+#tns-team-mobile [data-controls] {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tns-journey-mobile [data-controls] {
+  width: 2rem;
+  height: 2rem;
+  top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tns-journey-mobile [data-controls=prev] {
+  left: -1.25rem;
+}
+
+#tns-journey-mobile [data-controls=next] {
+  right: -1.25rem;
+}

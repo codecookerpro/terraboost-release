@@ -1,0 +1,13 @@
+#background-national {
+  background-image: url(../assets/img/national-solutions/background-m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #background-national {
+    background-image: url(../assets/img/national-solutions/background.png);
+    background-size: cover;
+    background-position: center;
+  }
+}

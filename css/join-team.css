@@ -1,0 +1,72 @@
+#join-team-background {
+  background-image: url(../assets/img/join-team/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 586px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#join-team-main-content {
+  padding: 150px;
+}
+
+.card-team {
+  padding: 30px 20px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px 20px rgba(0, 0, 0, 0.03);
+  margin-bottom: 15px;
+}
+
+.team-logo {
+  margin-bottom: 14px;
+}
+
+.team-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.team-desc {
+  font-size: 15px;
+  line-height: 1.87;
+  color: #000;
+}
+
+#text-location {
+  font-family: var(--bs-font-rubik);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 56px;
+  color: #fff;
+}
+
+.loc-email {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+.card-team-container {
+  min-width: 300px;
+}
+
+@media (min-width: 992px) {
+  #join-team-main-content {
+    background-image: url(../assets/img/join-team/dots.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 170px 179px 263px 198px;
+  }
+  .card-team-container {
+    min-width: unset;
+  }
+}

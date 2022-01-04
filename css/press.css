@@ -1,0 +1,51 @@
+#section-press {
+  background-image: url(../assets/img/vector.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 100%;
+}
+
+.press-card {
+  padding: 32px 28px;
+  box-shadow: 0 19px 33px 0 rgba(111, 109, 113, 0.13), 0 19px 33px 0 rgba(111, 109, 113, 0.13);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  width: 570px;
+  height: 500px;
+  margin-bottom: 88px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#card1 {
+  background-image: url(../assets/img/press/img1.png);
+}
+
+#card2 {
+  background-image: url(../assets/img/press/img2.png);
+}
+
+#card3 {
+  background-image: url(../assets/img/press/img3.png);
+}
+
+#card4 {
+  background-image: url(../assets/img/press/img4.png);
+}
+
+.press-content {
+  padding: 25px 62px 26px 36px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  min-height: 185px;
+}
+
+.press-content .text {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.36;
+  color: var(--gunmetal);
+  margin-bottom: 0px;
+}

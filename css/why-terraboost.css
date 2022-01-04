@@ -1,0 +1,53 @@
+.slider-item {
+  height: 475px !important;
+}
+
+.feedback-text {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 22px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#why-background {
+  background-color: var(--dark-lime-green);
+  min-height: 526px;
+}
+
+#why-graphic {
+  width: 313px;
+  height: 314px;
+  position: absolute;
+  right: 0px;
+  bottom: -100px;
+  background-image: url(../assets/img/why-terraboost/graphic-m.png);
+}
+
+@media (min-width: 996px) {
+  #why-background {
+    min-height: 586px;
+    overflow: hidden;
+  }
+  #why-graphic {
+    bottom: 0px;
+    right: 0px;
+    width: 564px;
+    height: 507px;
+    background-image: url(../assets/img/why-terraboost/graphic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+#tns-feedback-mobile [data-controls] {
+  bottom: -100px;
+  top: unset;
+}
+
+.img-small {
+  height: 20px;
+}

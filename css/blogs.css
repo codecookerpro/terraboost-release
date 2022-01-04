@@ -1,0 +1,122 @@
+#section-blog {
+  background-image: url(../assets/img/vector.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 100%;
+}
+
+.press-card {
+  padding: 32px 28px;
+  box-shadow: 0 19px 33px 0 rgba(111, 109, 113, 0.13), 0 19px 33px 0 rgba(111, 109, 113, 0.13);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  width: 570px;
+  height: 500px;
+  margin-bottom: 88px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#card1 {
+  background-image: url(../assets/img/blogs/img1.png);
+}
+
+#card2 {
+  background-image: url(../assets/img/blogs/img2.png);
+}
+
+#card3 {
+  background-image: url(../assets/img/blogs/img3.png);
+}
+
+#card4 {
+  background-image: url(../assets/img/blogs/img4.png);
+}
+
+.press-content {
+  padding: 25px 62px 26px 36px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  min-height: 185px;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.36;
+  color: var(--gunmetal);
+  margin-bottom: 0px;
+}
+
+.badge-label {
+  padding: 5px 13px;
+  border-radius: 9px;
+  background-color: var(--purple);
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+}
+
+#blog-detail-img {
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.blog-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: var(--gunmetal);
+  margin-bottom: 46px;
+  letter-spacing: 0.02px;
+}
+
+.blog-intro {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: justify;
+  color: var(--gunmetal);
+  margin-bottom: 28px;
+}
+
+.blog-detail {
+  font-size: 17px;
+  line-height: 2.18;
+  text-align: justify;
+  color: #6f6d71;
+  margin-bottom: 39px;
+}
+
+.blog-note {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--gunmetal);
+  padding-left: 50px;
+  border-left: 2px solid var(--purple);
+  margin-bottom: 42px;
+}
+
+.horizontal-line {
+  height: 0px;
+  border: solid 3px #ebe9ed;
+  margin-bottom: 19px;
+}
+
+.blog-author {
+  font-size: 22px;
+  line-height: 1.68;
+  color: var(--gunmetal);
+}
+
+@media (min-width: 992px) {
+  .blog-title {
+    font-size: 42px;
+    margin-bottom: 39px;
+    letter-spacing: 0;
+  }
+}

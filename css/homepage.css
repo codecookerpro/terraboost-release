@@ -1,0 +1,138 @@
+.background-home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+#bg-img1 {
+  background-image: url(../assets/img/homepage/bg1.png);
+  background-position: top center;
+}
+
+#section-home-decorating {
+  background-image: url(../assets/img/homepage/bg-decorate.png);
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+#bg-img3 {
+  background-color: #ffeaff;
+}
+
+.home-line {
+  width: 200px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: var(--dark-lime-green);
+  margin-bottom: 16px;
+}
+
+#btn-view-solutions {
+  color: var(--purple);
+  background-color: white;
+  font-weight: bold;
+}
+
+.parallax-section {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.parallax-content {
+  border-radius: 31px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-brand {
+  background-color: #fff;
+  box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-brand .brand-header {
+  text-align: center;
+  color: #949494;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+.card-brand .brand-content {
+  padding: 12px 24px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-grow: 1;
+}
+
+#tns-carousel-home [data-controls] {
+  font-size: 2rem;
+  border-radius: 0;
+  background-color: var(--purple);
+  color: #fff;
+  border: none;
+}
+
+.home-video-container [data-controls=prev] {
+  left: 0;
+}
+
+.home-video-container [data-controls=next] {
+  right: 0;
+}
+
+@keyframes overlay-animation {
+  30% {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    content: "Real Human Connections";
+    opacity: 1;
+  }
+}
+
+.overlay-text {
+  transition-property: all;
+}
+
+.overlay-text::before {
+  content: "Purpose-Driven Out-Of-Home Media";
+}
+
+.overlay-text.is-in-viewport::before {
+  animation-name: overlay-animation;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 996px) {
+  .background-home {
+    height: 576px;
+  }
+
+
+  .home-video-container [data-controls=prev] {
+    left: 1.75rem;
+  }
+
+  .home-video-container [data-controls=next] {
+    right: 1.75rem;
+  }
+}

@@ -1,0 +1,13 @@
+#background-location-partners {
+  background-image: url(../assets/img/location-partners/background-m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #background-location-partners {
+    background-image: url(../assets/img/location-partners/background.png);
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,13 @@
+#background-local {
+  background-image: url(../assets/img/local-solutions/background-m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #background-local {
+    background-image: url(../assets/img/local-solutions/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
