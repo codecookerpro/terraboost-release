@@ -27,6 +27,48 @@
   background-image: url(../assets/img/why-terraboost/graphic-m.png);
 }
 
+.typewriter * {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #8d1d8c;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Adjust as needed */
+  animation:
+    typing 3s steps(10, end) 3,
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  50% {
+    width: 100%
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #8d1d8c;
+  }
+}
+
 @media (min-width: 996px) {
   #why-background {
     min-height: 586px;
