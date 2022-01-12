@@ -32,28 +32,17 @@
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #8d1d8c;
   /* The typwriter cursor */
-  white-space: nowrap;
+
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Adjust as needed */
-  animation:
-    typing 3s steps(10, end) 3,
-    blink-caret .5s step-end infinite;
+
 }
 
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0
-  }
-
-  50% {
-    width: 100%
-  }
-
-  to {
-    width: 100%;
-  }
+.typewrite>.wrap {
+  border-right: 0.15em solid #8d1d8c;
+  white-space: nowrap;
+  animation: blink-caret 0.8s infinite;
 }
 
 /* The typewriter cursor effect */
@@ -74,6 +63,7 @@
     min-height: 586px;
     overflow: hidden;
   }
+
   #why-graphic {
     bottom: 0px;
     right: 0px;
