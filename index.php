@@ -895,94 +895,95 @@
     <section>
       <img src="./assets/img/slider.png" class="w-100 d-none d-lg-block" />
       <img src="./assets/img/slider-min.png" class="w-100 d-lg-none" />
-    </section><!-- Cookie Banner -->
-    <!-- <div class="modal" tabindex="-1" role="dialog" id="modal-cookie">
-  <div class="d-flex align-items-end h-100 pb-5">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-7">
-                <h1 class="fs-20 fw-bold text-gunmetal">We care about your Privacy</h1>
-                <p class="text-gunmetal">
-                  We use cookies to improve your experience and deliver personalized content. By using Terraboost, you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
-                </p>
-              </div>
-              <div class="col-xl-4 offset-xl-1 d-flex align-items-center">
-                <a class="btn btn-primary" data-bs-dismiss="modal">
-                  Accept
-                </a>
-                <a class="btn btn-outlined text-purple fw-bold" data-bs-toggle="modal" href="#modal-cookie-setting">
-                  Cookie Settings
-                </a>
+    </section>
+    <!-- Cookie Banner -->
+    <div class="modal" tabindex="-1" role="dialog" id="modal-cookie">
+      <div class="d-flex align-items-end h-100 pb-5">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-7">
+                    <h1 class="fs-20 fw-bold text-gunmetal">We care about your Privacy</h1>
+                    <p class="text-gunmetal">
+                      We use cookies to improve your experience and deliver personalized content. By using Terraboost, you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
+                    </p>
+                  </div>
+                  <div class="col-xl-4 offset-xl-1 d-flex align-items-center">
+                    <a class="btn btn-primary" data-bs-dismiss="modal">
+                      Accept
+                    </a>
+                    <a class="btn btn-outlined text-purple fw-bold" data-bs-toggle="modal" href="#modal-cookie-setting">
+                      Cookie Settings
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="modal" tabindex="-1" role="dialog" id="modal-cookie-setting">
-  <div class="d-flex align-items-end h-100 pb-5">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <h1 class="fs-20 fw-bold text-gunmetal">Cookie settings</h1>
-                <p class="text-gunmetal">
-                  We use cookies to improve your experience and deliver personalized content. By using Terraboost, you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
-                </p>
+    <div class="modal" tabindex="-1" role="dialog" id="modal-cookie-setting">
+      <div class="d-flex align-items-end h-100 pb-5">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 class="fs-20 fw-bold text-gunmetal">Cookie settings</h1>
+                    <p class="text-gunmetal">
+                      We use cookies to improve your experience and deliver personalized content. By using Terraboost, you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-l2 mb-5">
+                    <div class="form-check form-switch mb-3">
+                      <input type="checkbox" class="form-check-input" id="functional" checked>
+                      <label class="form-check-label fw-bold" for="functional">Functional</label>
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                      <input type="checkbox" class="form-check-input" id="statistics">
+                      <label class="form-check-label fw-bold" for="statistics">Statistics</label>
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                      <input type="checkbox" class="form-check-input" id="marketing" checked>
+                      <label class="form-check-label fw-bold" for="marketing">Marketing</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-lg-end justify-content-start">
+                  <a class="btn btn-primary" id="btn-accept-all">
+                    Accept all
+                  </a>
+                  <a class="btn btn-outlined text-purple fw-bold" data-bs-dismiss="modal">
+                    Save Settings
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-l2 mb-5">
-                <div class="form-check form-switch mb-3">
-                  <input type="checkbox" class="form-check-input" id="functional" checked>
-                  <label class="form-check-label fw-bold" for="functional">Functional</label>
-                </div>
-                <div class="form-check form-switch mb-3">
-                  <input type="checkbox" class="form-check-input" id="statistics">
-                  <label class="form-check-label fw-bold" for="statistics">Statistics</label>
-                </div>
-                <div class="form-check form-switch mb-3">
-                  <input type="checkbox" class="form-check-input" id="marketing" checked>
-                  <label class="form-check-label fw-bold" for="marketing">Marketing</label>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-lg-end justify-content-start">
-              <a class="btn btn-primary" id="btn-accept-all">
-                Accept all
-              </a>
-              <a class="btn btn-outlined text-purple fw-bold" data-bs-dismiss="modal">
-                Save Settings
-              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<a href="#modal-cookie" data-bs-toggle="modal" class="hidden" id="modal-handle"></a>
+    <a href="#modal-cookie" data-bs-toggle="modal" class="hidden" id="modal-handle"></a>
 
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('modal-handle').click();
-    document.getElementById('btn-accept-all').addEventListener('click', () => {
-      const settings = document.querySelectorAll('#modal-cookie-setting .form-check-input');
-      Array.from(settings).forEach(toggler => {
-        toggler.checked = true;
-      });
-    });
-  })
-</script> -->
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('modal-handle').click();
+        document.getElementById('btn-accept-all').addEventListener('click', () => {
+          const settings = document.querySelectorAll('#modal-cookie-setting .form-check-input');
+          Array.from(settings).forEach(toggler => {
+            toggler.checked = true;
+          });
+        });
+      })
+    </script>
 
   </main>
   <!-- Footer-->
