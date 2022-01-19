@@ -6,7 +6,8 @@
   <title>Terraboost | Homepage</title>
   <link rel="icon" type="image" href="./assets/img/favicon.png">
   <!-- SEO Meta Tags-->
-  <meta name="description" content="Terraboost Media is among the top marketing companies, specialized in brand engagement, & targeted display advertising, displayed on wellness billboards.">
+  <meta name="description"
+    content="Terraboost Media is among the top marketing companies, specialized in brand engagement, & targeted display advertising, displayed on wellness billboards.">
   <meta name="keywords" content="terraboost, advertisement">
   <meta name="author" content="Voxsync Inc.">
   <meta property="og:image" content="./assets/img/preview.png" />
@@ -77,7 +78,8 @@
                   </a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Company</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside">Company</a>
                   <ul class="dropdown-menu">
                     <li class="">
                       <a class="dropdown-item" href="./about-us.html">About Us</a>
@@ -91,7 +93,8 @@
                   </ul>
                 </li>
                 <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Resources</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside">Resources</a>
                   <ul class="dropdown-menu">
                     <li class="">
                       <a class="dropdown-item" href="./blogs.html">Blog</a>
@@ -120,7 +123,8 @@
     </header>
     <!-- Background -->
     <section class="tns-carousel tns-controls-static tns-nav-enabled tns-nav-light tns-nav-inside home-video-container">
-      <div class="tns-carousel-inner" data-carousel-options='{"loop": true, "nav": false, "autoplayTimeout": 5000, "autoplay": true}'>
+      <div class="tns-carousel-inner"
+        data-carousel-options='{"loop": true, "nav": false, "autoplayTimeout": 5000, "autoplay": true}'>
         <div class="tns-item tns-fadeIn tns-slide-active">
           <div class="background-home" id="bg-img1">
             <div class="container">
@@ -149,7 +153,8 @@
           <div class="container background-home">
             <div class="row d-flex align-items-lg-center">
               <div class="col-xl-4 offset-xl-1 d-flex justify-content-center mb-5">
-                <img src="./assets/img/homepage/bg2.png" width="323px" alt="home background2" class="d-none d-lg-block" />
+                <img src="./assets/img/homepage/bg2.png" width="323px" alt="home background2"
+                  class="d-none d-lg-block" />
                 <img src="./assets/img/homepage/bg2.png" width="212px" alt="home background2" class="d-lg-none" />
               </div>
               <div class="col-xl-7 ps-xl-5 d-lg-block d-flex flex-column align-items-center">
@@ -191,7 +196,8 @@
                 </div>
               </div>
               <div class="col-xl-6 offset-xl-1 d-flex justify-content-center">
-                <img src="./assets/img/homepage/bg3.png" width="482px" alt="home background2" class="d-none d-lg-block" />
+                <img src="./assets/img/homepage/bg3.png" width="482px" alt="home background2"
+                  class="d-none d-lg-block" />
                 <img src="./assets/img/homepage/bg3.png" width="241px" alt="home background2" class="d-lg-none" />
               </div>
             </div>
@@ -352,7 +358,8 @@
         <div class="row mb-7">
           <div class="col-12">
             <div class="tns-carousel tns-controls-static tns-controls-outside" id="tns-carousel-home">
-              <div class="tns-carousel-inner" data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":3, "gutter": 20}, "1100":{"gutter": 24}}}'>
+              <div class="tns-carousel-inner"
+                data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":3, "gutter": 20}, "1100":{"gutter": 24}}}'>
                 <div class="tns-item tns-fadeIn">
                   <img src="./assets/img/homepage/slides/slide1.png" width="100%" alt="slide1" />
                 </div>
@@ -399,7 +406,9 @@
           <span class="text-purple">Network</span> Summary
         </h1>
         <p class="h6 mb-5 text-center text-lg-start pe-lg-10">
-          Reach your target audience nationally, regionally or locally. Select the locations that matter most to your business. Join the more than 10,000 satisfied advertisers who have successfully leveraged our engaging media platform. Nielsen research has confirmed a 63% Ad recall, 77% engagement, and 94% positive brand opinion.
+          Reach your target audience nationally, regionally or locally. Select the locations that matter most to your
+          business. Join the more than 10,000 satisfied advertisers who have successfully leveraged our engaging media
+          platform. Nielsen research has confirmed a 63% Ad recall, 77% engagement, and 94% positive brand opinion.
         </p>
         <div class="summary flex-column flex-lg-row">
           <div class="summary-header">
@@ -635,8 +644,10 @@
             <h1 class="text-white mb-3 mb-lg-5 fs-32 fs-lg-60">Align your brand with wellness</h1>
             <p class="text-white mb-3 mb-lg-5 h6">
               Terraboost’s real human connections <span class="text-dark-lime-green">advertising solutions</span>
-              are not only affordable but extremely impactful. Our network of over 100,000 + <span class="text-dark-lime-green">hand sanitizing wellness billboards</span>
-              are strategically placed within industry-leading retail locations reaching more than 130 million daily visitors.
+              are not only affordable but extremely impactful. Our network of over 100,000 + <span
+                class="text-dark-lime-green">hand sanitizing wellness billboards</span>
+              are strategically placed within industry-leading retail locations reaching more than 130 million daily
+              visitors.
             </p>
             <button class="btn" id="btn-view-solutions">View solutions</button>
           </div>
@@ -695,7 +706,8 @@
       </div>
     </section><!-- Carousel -->
     <section class="container tns-carousel tns-controls-static tns-controls-outside mb-lg-10 mb-5">
-      <div class="tns-carousel-inner" data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":4, "gutter": 20}, "1100":{"gutter": 24}}}'>
+      <div class="tns-carousel-inner"
+        data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":4, "gutter": 20}, "1100":{"gutter": 24}}}'>
         <div class="tns-item tns-fadeIn tns-slide-active">
           <div class="d-flex justify-content-center slider-item">
             <img class="d-block" src="./assets/img/slides/1.jpg" alt="Summer Collection">
@@ -766,8 +778,10 @@
         <div class="row">
           <div class="col-12">
             <h6 class="text-semi-trans mb-xl-5 mb-3">
-              Terraboost has placed more than 100,000 + advertising wellness kiosks at the front door and pharmacy wait area of
-              the country’s leading retailers, generating up to 3.9 billion engagements per month via a billboard that gives
+              Terraboost has placed more than 100,000 + advertising wellness kiosks at the front door and pharmacy wait
+              area of
+              the country’s leading retailers, generating up to 3.9 billion engagements per month via a billboard that
+              gives
               back.
             </h6>
           </div>
@@ -866,7 +880,8 @@
           <div class="col-12 d-flex flex-column align-items-center justify-content-center mb-10 mb-lg-0">
             <img src="./assets/img/gives-back.png" class="mb-5" />
             <h6 class="mb-5 text-white text-center px-lg-10">
-              Terraboost is a Piurpose-Driven company, having donated more than $5 million in disinfecting + wellness products
+              Terraboost is a Piurpose-Driven company, having donated more than $5 million in disinfecting + wellness
+              products
               to reputable organizations on a mission to eradicate hunger.
             </h6>
             <img src="./assets/img/brands.png" class="d-none d-lg-block" />
@@ -881,8 +896,10 @@
           <div class="col-12 col-lg-8 order-2 order-lg-1">
             <img src="./assets/img/restore-white.png" class="mb-5" alt="terraboost restore" />
             <h6 class="text-white pe-lg-5 text-center text-lg-start">
-              Terraboost will plant 1 tree per month on behalf of each participating retail location which will offset the
-              enviromental impact on keeping employees + customers safe via cleaning, sanitizing, and disinfecting wipes.
+              Terraboost will plant 1 tree per month on behalf of each participating retail location which will offset
+              the
+              enviromental impact on keeping employees + customers safe via cleaning, sanitizing, and disinfecting
+              wipes.
             </h6>
           </div>
           <div class="col-12 col-lg-4 order-1 order-lg-2 px-5 px-lg-0">
@@ -907,11 +924,12 @@
                   <div class="col-xl-7">
                     <h1 class="fs-20 fw-bold text-gunmetal">We care about your Privacy</h1>
                     <p class="text-gunmetal">
-                      We use cookies to improve your experience and deliver personalized content. By using Terraboost, you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
+                      We use cookies to improve your experience and deliver personalized content. By using Terraboost,
+                      you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
                     </p>
                   </div>
                   <div class="col-xl-4 offset-xl-1 d-flex align-items-center">
-                    <a class="btn btn-primary" data-bs-dismiss="modal">
+                    <a class="btn btn-primary" data-bs-dismiss="modal" id="btn-accept">
                       Accept
                     </a>
                     <a class="btn btn-outlined text-purple fw-bold" data-bs-toggle="modal" href="#modal-cookie-setting">
@@ -936,7 +954,8 @@
                   <div class="col-12">
                     <h1 class="fs-20 fw-bold text-gunmetal">Cookie settings</h1>
                     <p class="text-gunmetal">
-                      We use cookies to improve your experience and deliver personalized content. By using Terraboost, you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
+                      We use cookies to improve your experience and deliver personalized content. By using Terraboost,
+                      you agree to our <a class="text-dark-lime-green" href="cookie-policy.html">Cookie Policy</a>.
                     </p>
                   </div>
                 </div>
@@ -960,7 +979,7 @@
                   <a class="btn btn-primary" id="btn-accept-all">
                     Accept all
                   </a>
-                  <a class="btn btn-outlined text-purple fw-bold" data-bs-dismiss="modal">
+                  <a class="btn btn-outlined text-purple fw-bold" data-bs-dismiss="modal" id="btn-save-settings">
                     Save Settings
                   </a>
                 </div>
@@ -975,12 +994,39 @@
 
     <script>
       window.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('modal-handle').click();
+        const cookieStorage = {
+          getItem: (key) => {
+            const cookies = document.cookie
+              .split(';')
+              .map(cookie => cookie.split('='))
+              .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
+            return cookies[key];
+          },
+          setItem: (key, value) => {
+            document.cookie = `${key}=${value}`;
+          },
+        };
+        const storage = localStorage;
+        const shouldShowPopup = () => !storage.getItem('functional');
+        const saveToStorage = () => storage.setItem('functional', true);
+
+        if (shouldShowPopup()) {
+          document.getElementById('modal-handle').click();
+        }
+
         document.getElementById('btn-accept-all').addEventListener('click', () => {
           const settings = document.querySelectorAll('#modal-cookie-setting .form-check-input');
           Array.from(settings).forEach(toggler => {
             toggler.checked = true;
           });
+        });
+
+        document.getElementById('btn-accept').addEventListener('click', () => {
+          saveToStorage();
+        });
+
+        document.getElementById('btn-save-settings').addEventListener('click', () => {
+          saveToStorage();
         });
       })
     </script>
@@ -1087,7 +1133,8 @@
           <!-- Primary menu-->
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Company</a>
+              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Company</a>
               <ul class="dropdown-menu" style="min-width: unset;">
                 <li>
                   <a class="dropdown-item" href="about-us.html">About Us</a>
@@ -1101,7 +1148,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Products</a>
+              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Products</a>
               <ul class="dropdown-menu" style="min-width: unset;">
                 <li>
                   <a class="dropdown-item" href="blogs.html">Blog</a>
@@ -1109,7 +1157,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Solutions</a>
+              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside">Solutions</a>
               <ul class="dropdown-menu" style="min-width: unset;">
                 <li>
                   <a class="dropdown-item" href="local-solutions.html">Local</a>
