@@ -6,8 +6,7 @@
   <title>Terraboost | Homepage</title>
   <link rel="icon" type="image" href="./assets/img/favicon.png">
   <!-- SEO Meta Tags-->
-  <meta name="description"
-    content="Terraboost Media is among the top marketing companies, specialized in brand engagement, & targeted display advertising, displayed on wellness billboards.">
+  <meta name="description" content="Terraboost Media is among the top marketing companies, specialized in brand engagement, & targeted display advertising, displayed on wellness billboards.">
   <meta name="keywords" content="terraboost, advertisement">
   <meta name="author" content="Voxsync Inc.">
   <meta property="og:image" content="./assets/img/preview.png" />
@@ -78,8 +77,7 @@
                   </a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside">Company</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Company</a>
                   <ul class="dropdown-menu">
                     <li class="">
                       <a class="dropdown-item" href="./about-us.html">About Us</a>
@@ -93,8 +91,7 @@
                   </ul>
                 </li>
                 <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside">Resources</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Resources</a>
                   <ul class="dropdown-menu">
                     <li class="">
                       <a class="dropdown-item" href="./blogs.html">Blog</a>
@@ -123,8 +120,7 @@
     </header>
     <!-- Background -->
     <section class="tns-carousel tns-controls-static tns-nav-enabled tns-nav-light tns-nav-inside home-video-container">
-      <div class="tns-carousel-inner"
-        data-carousel-options='{"loop": true, "nav": false, "autoplayTimeout": 5000, "autoplay": true}'>
+      <div class="tns-carousel-inner" data-carousel-options='{"loop": true, "nav": false, "autoplayTimeout": 5000, "autoplay": true}'>
         <div class="tns-item tns-fadeIn tns-slide-active">
           <div class="background-home" id="bg-img1">
             <div class="container">
@@ -153,8 +149,7 @@
           <div class="container background-home">
             <div class="row d-flex align-items-lg-center">
               <div class="col-xl-4 offset-xl-1 d-flex justify-content-center mb-5">
-                <img src="./assets/img/homepage/bg2.png" width="323px" alt="home background2"
-                  class="d-none d-lg-block" />
+                <img src="./assets/img/homepage/bg2.png" width="323px" alt="home background2" class="d-none d-lg-block" />
                 <img src="./assets/img/homepage/bg2.png" width="212px" alt="home background2" class="d-lg-none" />
               </div>
               <div class="col-xl-7 ps-xl-5 d-lg-block d-flex flex-column align-items-center">
@@ -196,8 +191,7 @@
                 </div>
               </div>
               <div class="col-xl-6 offset-xl-1 d-flex justify-content-center">
-                <img src="./assets/img/homepage/bg3.png" width="482px" alt="home background2"
-                  class="d-none d-lg-block" />
+                <img src="./assets/img/homepage/bg3.png" width="482px" alt="home background2" class="d-none d-lg-block" />
                 <img src="./assets/img/homepage/bg3.png" width="241px" alt="home background2" class="d-lg-none" />
               </div>
             </div>
@@ -358,8 +352,7 @@
         <div class="row mb-7">
           <div class="col-12">
             <div class="tns-carousel tns-controls-static tns-controls-outside" id="tns-carousel-home">
-              <div class="tns-carousel-inner"
-                data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":3, "gutter": 20}, "1100":{"gutter": 24}}}'>
+              <div class="tns-carousel-inner" data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":3, "gutter": 20}, "1100":{"gutter": 24}}}'>
                 <div class="tns-item tns-fadeIn">
                   <img src="./assets/img/homepage/slides/slide1.png" width="100%" alt="slide1" />
                 </div>
@@ -385,7 +378,7 @@
 
         <div class="row py-7">
           <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end order-2 order-lg-1">
-            <img src="assets/img/homepage/two-kiosks-bigger-better.png" alt="tbm kiosk" width="185px" />
+            <img src="assets/img/homepage/two-kiosks-bigger-better.png" alt="tbm kiosk" width="185px" style="object-fit: contain;" />
           </div>
           <div class="col-lg-7 offset-lg-1 order-1 order-lg-2 d-flex flex-column justify-content-center">
             <p class="text-gunmetal mb-4 fw-bold text-center text-lg-start">
@@ -644,8 +637,7 @@
             <h1 class="text-white mb-3 mb-lg-5 fs-32 fs-lg-60">Align your brand with wellness</h1>
             <p class="text-white mb-3 mb-lg-5 h6">
               Terraboost’s real human connections <span class="text-dark-lime-green">advertising solutions</span>
-              are not only affordable but extremely impactful. Our network of over 100,000 + <span
-                class="text-dark-lime-green">hand sanitizing wellness billboards</span>
+              are not only affordable but extremely impactful. Our network of over 100,000 + <span class="text-dark-lime-green">hand sanitizing wellness billboards</span>
               are strategically placed within industry-leading retail locations reaching more than 130 million daily
               visitors.
             </p>
@@ -706,8 +698,7 @@
       </div>
     </section><!-- Carousel -->
     <section class="container tns-carousel tns-controls-static tns-controls-outside mb-lg-10 mb-5">
-      <div class="tns-carousel-inner"
-        data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":4, "gutter": 20}, "1100":{"gutter": 24}}}'>
+      <div class="tns-carousel-inner" data-carousel-options='{"items": 6, "nav": false, "loop": true, "responsive": {"0":{"items":1},"500":{"items":2, "gutter": 18},"768":{"items":4, "gutter": 20}, "1100":{"gutter": 24}}}'>
         <div class="tns-item tns-fadeIn tns-slide-active">
           <div class="d-flex justify-content-center slider-item">
             <img class="d-block" src="./assets/img/slides/1.jpg" alt="Summer Collection">
@@ -999,7 +990,10 @@
             const cookies = document.cookie
               .split(';')
               .map(cookie => cookie.split('='))
-              .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
+              .reduce((acc, [key, value]) => ({
+                ...acc,
+                [key.trim()]: value
+              }), {});
             return cookies[key];
           },
           setItem: (key, value) => {
@@ -1133,8 +1127,7 @@
           <!-- Primary menu-->
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown"
-                data-bs-auto-close="outside">Company</a>
+              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Company</a>
               <ul class="dropdown-menu" style="min-width: unset;">
                 <li>
                   <a class="dropdown-item" href="about-us.html">About Us</a>
@@ -1148,8 +1141,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown"
-                data-bs-auto-close="outside">Products</a>
+              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Products</a>
               <ul class="dropdown-menu" style="min-width: unset;">
                 <li>
                   <a class="dropdown-item" href="blogs.html">Blog</a>
@@ -1157,8 +1149,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown"
-                data-bs-auto-close="outside">Solutions</a>
+              <a class="nav-link dropdown-toggle py-0 fs-sm" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Solutions</a>
               <ul class="dropdown-menu" style="min-width: unset;">
                 <li>
                   <a class="dropdown-item" href="local-solutions.html">Local</a>
